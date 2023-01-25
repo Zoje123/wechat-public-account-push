@@ -3,13 +3,6 @@ const USER_CONFIG = {
   /**
    * 基本配置
    */
-  
-  // 使用的推送通道：['push-deer', 'wechat-test', 'server-chan', 'push-plus']
-  // 默认使用 【微信测试号】
-  // 使用【pushDeer】请填写 push-deer
-  // 使用【微信测试号】请填写 wechat-test
-  // 使用【方糖服务号】请填写 server-chan
-  // 使用【pushplus推送加服务号】请填写 push-plus
   USE_PASSAGE: 'wechat-test',
   
   // 使用微信测试号时才需要填写：公众号APP_ID
@@ -37,7 +30,7 @@ const USER_CONFIG = {
 
     /** 节假日 */
     // 下一休息日综合提醒, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    holidaytts: true,
+    holidaytts: false,
 
     /** 每日N句 */
     // 金山每日一句, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
@@ -50,13 +43,13 @@ const USER_CONFIG = {
     earthyLoveWords: true,
     
     // 朋友圈文案, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    momentCopyrighting: true,
+    momentCopyrighting: false,
     
     // 毒鸡汤, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    poisonChickenSoup: true,
+    poisonChickenSoup: false,
     
     // 古诗古文, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    poetry: true,
+    poetry: false,
 
     /** 星座运势 */
     // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
@@ -68,7 +61,7 @@ const USER_CONFIG = {
   
     /** 学生课表 */
     // 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
-    courseSchedule: true,
+    courseSchedule: false,
   },
   
   TIAN_API: {
@@ -86,7 +79,7 @@ const USER_CONFIG = {
     weather: 3,
   
     // 全网热搜榜（展示N条，最多30条）, 填 0 则不使用，按需关闭不使用的功能可以提高运行速度
-    networkHot: 3,
+    networkHot: 0,
   
     // 全网热搜榜展示类型，默认展示概要信息: ['title': 仅展示标题, 'default': 展示概要信息]
     networkHotType: 'default',
@@ -111,10 +104,10 @@ const USER_CONFIG = {
       name: '亲爱的',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       // 使用其他通道时，请严格按照各个通道的教程进行填写
-      id: 'y3w97KfBr4H14blUZtFpSkz1CcqOvjPj6AKzcldvi8U',
+      id: 'ohAxh56TPWwBdqkXbVS7elCfNpBA',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       // 使用其他通道时，请填写 config/template-config.cjs 中某个想要使用的模板的id
-      useTemplateId: '',
+      useTemplateId: 'y3w97KfBr4H14blUZtFpSkz1CcqOvjPj6AKzcldvi8U',
       // 所在省份或城市，也可以不填
       province: '安徽',
       // 所在城市或县区
@@ -266,7 +259,7 @@ const USER_CONFIG = {
 
   // 使用微信测试号：【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
   // 使用其他通道时，请填写 config/template-config.cjs 中【推送完成提醒】模板的id
-  CALLBACK_TEMPLATE_ID: '',
+  CALLBACK_TEMPLATE_ID: 'y3w97KfBr4H14blUZtFpSkz1CcqOvjPj6AKzcldvi8U',
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
