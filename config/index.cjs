@@ -138,9 +138,9 @@ const USER_CONFIG = {
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
         // 在一起的日子
-        { keyword: 'love_day', date: '2022-09-08' },
+        { keyword: 'love_day', date: '2022-11-17' },
         // 结婚纪念日
-        { keyword: 'marry_day', date: '2022-09-09' },
+        { keyword: 'marry_day', date: '2022-11-17' },
         // 退伍日
         { keyword: 'ex_day', date: '2022-09-10' }
       ],
@@ -316,17 +316,17 @@ const USER_CONFIG = {
   FESTIVALS: [
     // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
     {
-      type: '*生日', name: '老婆', year: '1996', date: '09-09', isShowAge: true,
+      type: '*生日', name: '曹子超', year: '2004', date: '03-21', isShowAge: true,
     },
     {
-      type: '节日', name: '结婚纪念日', year: '2020', date: '09-03',
+      type: '节日', name: '在一起纪念日', year: '2022', date: '11-15',
     },
     // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
     {
-      type: '生日', name: '李四', year: '1996', date: '09-31', isShowAge: true,
+      type: '生日', name: '李赟睿', year: '2004', date: '10-06', isShowAge: true,
     },
     {
-      type: '节日', name: '被搭讪纪念日', year: '2021', date: '09-01',
+      type: '节日', name: '搭讪纪念日', year: '2022', date: '10-03',
     }
     // 你可以不断按格式往下增加
     // ...
