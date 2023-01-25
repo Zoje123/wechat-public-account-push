@@ -104,7 +104,7 @@ const USER_CONFIG = {
       name: '亲爱的',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       // 使用其他通道时，请严格按照各个通道的教程进行填写
-      id: 'ohAxh56TPWwBdqkXbVS7elCfNpBA',
+      id: 'ohAxh51NVEHdJuovej5wQnrVzpdI',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       // 使用其他通道时，请填写 config/template-config.cjs 中某个想要使用的模板的id
       useTemplateId: 'y3w97KfBr4H14blUZtFpSkz1CcqOvjPj6AKzcldvi8U',
@@ -268,7 +268,7 @@ const USER_CONFIG = {
       name: '自己',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       // 使用其他通道时，请严格按照各个通道的教程进行填写
-      id: 'ohAxh51NVEHdJuovej5wQnrVzpdI',
+      id: 'ohAxh56TPWwBdqkXbVS7elCfNpBA',
     }
     // 你可以不断按格式往下增加
     // ...
